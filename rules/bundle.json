@@ -1,0 +1,257 @@
+{
+  "formatVersion": 1,
+  "generatedAt": "2026-08-25T01:50:03.585Z",
+  "catalogueVerifiedAt": "2026-08-23",
+  "jurisdictions": [
+    "NSW"
+  ],
+  "rules": [
+    {
+      "jurisdiction": "NSW",
+      "version": 1,
+      "status": "published",
+      "effectiveTo": null,
+      "verifiedAt": "2026-08-23",
+      "verifiedBy": "gapfound-review",
+      "sourceHash": null,
+      "createdAt": "2026-08-23",
+      "id": "nsw-wel-rcs-v1",
+      "key": "wel.rcs",
+      "effectiveFrom": "2020-07-01",
+      "value": {
+        "substance": "Respirable crystalline silica (quartz, cristobalite, tridymite, tripoli)",
+        "casNumbers": [
+          "14808-60-7",
+          "14464-46-1",
+          "15468-32-3",
+          "1317-95-9"
+        ],
+        "twaMgM3": 0.05,
+        "averagingPeriodHours": 8,
+        "instrument": "WES",
+        "halfLimitTriggerMgM3": 0.025
+      },
+      "citation": "Work Health and Safety Regulation 2025 (NSW) cl 49 (exposure standards not to be exceeded); Safe Work Australia, Workplace exposure standards for airborne contaminants (WES list)",
+      "sourceName": "Safe Work Australia",
+      "sourceUrl": "https://www.safeworkaustralia.gov.au/safety-topic/hazards/silica/whs-duties-silica/workplace-exposure-standard-respirable-crystalline-silica",
+      "notes": "The 8-hour TWA workplace exposure standard for RCS is 0.05 mg/m3. It applies until 30 November 2026, after which the WEL list applies. The effective-from date reflects the national reduction of the RCS standard from 0.1 to 0.05 mg/m3; confirm the commencement instrument for your jurisdiction before relying on that date."
+    },
+    {
+      "jurisdiction": "NSW",
+      "version": 2,
+      "status": "published",
+      "effectiveTo": null,
+      "verifiedAt": "2026-08-23",
+      "verifiedBy": "gapfound-review",
+      "sourceHash": null,
+      "createdAt": "2026-08-23",
+      "id": "nsw-wel-rcs-v2",
+      "key": "wel.rcs",
+      "effectiveFrom": "2026-12-01",
+      "value": {
+        "substance": "Respirable crystalline silica - quartz (respirable dust)",
+        "casNumbers": [
+          "14808-60-7",
+          "14464-46-1",
+          "15468-32-3",
+          "1317-95-9"
+        ],
+        "twaMgM3": 0.05,
+        "averagingPeriodHours": 8,
+        "instrument": "WEL",
+        "halfLimitTriggerMgM3": 0.025,
+        "underReview": true,
+        "reviewNote": "WHS ministers have requested additional impact analysis for respirable crystalline silica (one of nine substances) before its WEL value is updated. The value in the published WEL list is currently 0.05 mg/m3 TWA, but it may change before the 1 December 2026 commencement. Airtight re-checks the WEL list weekly and again on 1 December 2026."
+      },
+      "citation": "Safe Work Australia, Workplace exposure limits for airborne contaminants (WEL list, amended November 2025), Appendix A - Silica - crystalline: Quartz (respirable dust), CAS 14808-60-7, TWA 0.05 mg/m3; commencing 1 December 2026",
+      "sourceName": "Safe Work Australia",
+      "sourceUrl": "https://www.safeworkaustralia.gov.au/doc/workplace-exposure-limits-airborne-contaminants",
+      "notes": "From 1 December 2026 the WEL list replaces the WES list. Until then PCBUs must comply with the WES list."
+    },
+    {
+      "jurisdiction": "NSW",
+      "version": 1,
+      "status": "published",
+      "effectiveTo": null,
+      "verifiedAt": "2026-08-23",
+      "verifiedBy": "gapfound-review",
+      "sourceHash": null,
+      "createdAt": "2026-08-23",
+      "id": "nsw-plan-contents-v1",
+      "key": "plan.contents",
+      "effectiveFrom": "2024-09-01",
+      "value": {
+        "requirements": [
+          {
+            "id": "identify-processing",
+            "provision": "529CB(2)(a)",
+            "text": "Identify all the processing of a crystalline silica substance carried out at the workplace that is high risk."
+          },
+          {
+            "id": "include-risk-assessment",
+            "provision": "529CB(2)(b)",
+            "text": "Include the risk assessment undertaken under regulation 529CA for all processing of a CSS that is high risk."
+          },
+          {
+            "id": "document-controls",
+            "provision": "529CB(2)(c)",
+            "text": "Document what control measures will be used to control the risks associated with the high risk processing, and how those measures will be implemented, monitored and reviewed."
+          },
+          {
+            "id": "accessible-language",
+            "provision": "529CB(2)(d)",
+            "text": "Be set out and expressed in a way that is readily accessible and understandable to the persons who use it."
+          }
+        ],
+        "swmsSubstitutionAllowed": true,
+        "reviewTrigger": "The plan must be reviewed and revised as necessary if relevant control measures are revised under regulation 38 (cl 529CC(3)). It must be available to all workers and provided to them before they start the processing (cl 529CC(1))."
+      },
+      "citation": "Work Health and Safety Regulation 2025 (NSW) cl 529CB (silica risk control plan required for processing of CSS that is high risk), cl 529CC (compliance with plan); model WHS Regulations regs 529CB-529CC",
+      "sourceName": "Safe Work Australia / SafeWork NSW",
+      "sourceUrl": "https://www.safeworkaustralia.gov.au/doc/model-whs-regulations",
+      "notes": "A safe work method statement may be used instead of a silica risk control plan where the high risk processing is also high risk construction work and the SWMS satisfies cl 529CB(2) (cl 529CB(3))."
+    },
+    {
+      "jurisdiction": "NSW",
+      "version": 1,
+      "status": "published",
+      "effectiveTo": null,
+      "verifiedAt": "2026-08-23",
+      "verifiedBy": "gapfound-review",
+      "sourceHash": null,
+      "createdAt": "2026-08-23",
+      "id": "nsw-health-monitoring-v1",
+      "key": "health.monitoring",
+      "effectiveFrom": "2024-09-01",
+      "value": {
+        "trigger": "Health monitoring must be provided to every worker carrying out processing of a crystalline silica substance that is high risk, and to any worker with ongoing work where there is a significant risk to health from exposure to RCS - even where respiratory protective equipment is used.",
+        "monitoringTypes": [
+          "Demographic, medical and occupational history",
+          "Records of personal exposure",
+          "Standardised respiratory questionnaire to be completed",
+          "Standardised respiratory function test, for example FEV1, FVC and FEV1/FVC",
+          "Chest X-ray full size PA view"
+        ],
+        "intervalMonths": 12,
+        "intervalBasis": "regulator_guidance",
+        "supervisedBy": "A registered medical practitioner with experience in health monitoring. The PCBU must consult the worker on the choice of practitioner and must pay all costs.",
+        "recordRetentionYears": 30,
+        "workerRegisterDays": 28
+      },
+      "citation": "Work Health and Safety Regulation 2025 (NSW) cl 529CE(c), cll 368-378 (Division 6 of Part 7.1 - health monitoring), Schedule 14 table 14.1 item 7 (crystalline silica); Work Health and Safety Amendment (Silica Worker Register) Regulation 2025 (NSW)",
+      "sourceName": "SafeWork NSW",
+      "sourceUrl": "https://www.safework.nsw.gov.au/notify-safework/silica-worker-register-notification",
+      "notes": "The Regulations do not fix a statutory interval between health monitoring rounds. SafeWork NSW and icare state that screening every 12 months is best practice, and Airtight schedules on that basis - it is guidance, not a legislated frequency. From 1 October 2025 PCBUs must register each worker doing high risk crystalline silica processing on the NSW Silica Worker Register within 28 days of them starting that work. Health monitoring itself must be performed by a registered medical practitioner; Airtight only tracks the schedule and records that a report exists."
+    },
+    {
+      "jurisdiction": "NSW",
+      "version": 1,
+      "status": "published",
+      "effectiveTo": null,
+      "verifiedAt": "2026-08-23",
+      "verifiedBy": "gapfound-review",
+      "sourceHash": null,
+      "createdAt": "2026-08-23",
+      "id": "nsw-notification-triggers-v1",
+      "key": "notification.triggers",
+      "effectiveFrom": "2024-09-01",
+      "value": {
+        "triggers": [
+          {
+            "id": "wes-exceedance",
+            "label": "Air monitoring result above the exposure limit",
+            "description": "If the airborne concentration of RCS has exceeded the workplace exposure standard, the PCBU must give the air monitoring results to the regulator in the approved form as soon as reasonably practicable and no more than 14 days from the date the result was reported to the PCBU.",
+            "deadlineDays": 14,
+            "method": "SafeWork NSW online WES exceedance notification portal (email is not accepted)",
+            "url": "https://www.safework.nsw.gov.au/notify-safework/workplace-exposure-standard-wes-exceedance-notification",
+            "provision": "cl 529CE(b)"
+          },
+          {
+            "id": "adverse-health-report",
+            "label": "Adverse health monitoring report",
+            "description": "A copy of the health monitoring report must be given to the regulator as soon as practicable after it is obtained if it advises that test results indicate the worker may have contracted a disease, injury or illness from the work, or recommends the PCBU take remedial measures (including whether the worker can continue the work).",
+            "deadlineDays": null,
+            "method": "SafeWork NSW adverse health monitoring report notification",
+            "url": "https://www.safework.nsw.gov.au/notify-safework/adverse-health-monitoring-report-notifications",
+            "provision": "cl 376"
+          },
+          {
+            "id": "silica-worker-register",
+            "label": "Silica Worker Register",
+            "description": "From 1 October 2025 a PCBU must notify each worker who carries out high risk crystalline silica processing to the NSW Silica Worker Register within 28 days of the worker commencing that work. A worker is notified once per period of employment.",
+            "deadlineDays": 28,
+            "method": "SafeWork NSW Silica Worker Register notification",
+            "url": "https://www.safework.nsw.gov.au/notify-safework/silica-worker-register-notification",
+            "provision": "Work Health and Safety Amendment (Silica Worker Register) Regulation 2025 (NSW)"
+          },
+          {
+            "id": "legacy-engineered-stone",
+            "label": "Legacy engineered stone work",
+            "description": "SafeWork NSW must be notified before processing work to remove, repair or make minor modifications to legacy engineered stone products installed before the prohibition. Manufacturing, supplying, processing or installing engineered stone benchtops, panels or slabs is otherwise prohibited.",
+            "deadlineDays": null,
+            "method": "SafeWork NSW legacy engineered stone notification",
+            "url": "https://www.safework.nsw.gov.au/notify-safework/legacy-engineered-stone-notification",
+            "provision": "cll 529D-529J"
+          }
+        ]
+      },
+      "citation": "Work Health and Safety Regulation 2025 (NSW) cl 529CE(b), cl 376, cll 529D-529J; Work Health and Safety Amendment (Silica Worker Register) Regulation 2025 (NSW); SafeWork NSW, \"Working with crystalline silica substances: PCBU obligations\" (17 July 2025)",
+      "sourceName": "SafeWork NSW",
+      "sourceUrl": "https://www.safework.nsw.gov.au/notify-safework",
+      "notes": null
+    },
+    {
+      "jurisdiction": "NSW",
+      "version": 1,
+      "status": "published",
+      "effectiveTo": null,
+      "verifiedAt": "2026-08-23",
+      "verifiedBy": "gapfound-review",
+      "sourceHash": null,
+      "createdAt": "2026-08-23",
+      "id": "nsw-training-v1",
+      "key": "training.requirements",
+      "effectiveFrom": "2024-09-01",
+      "value": {
+        "whoMustBeTrained": "Every worker the PCBU reasonably believes may be involved in the processing of a CSS that is high risk, or may be at risk of exposure to RCS because of that processing.",
+        "acceptedTraining": "Training accredited by the National VET Regulator, or training approved by the WHS regulator, covering the health risks of exposure to RCS and the need for and proper use of the required control measures. In NSW the training may be developed in-house or delivered by a third party provided it meets the SafeWork NSW approved training criteria.",
+        "recordRetention": "A record of the training must be kept while the worker is carrying out high risk processing and for 5 years after the worker ceases working for the PCBU, and kept available for inspection.",
+        "refresherMonths": 36,
+        "refresherBasis": "regulator_guidance"
+      },
+      "citation": "Work Health and Safety Regulation 2025 (NSW) cl 529CD; model WHS Regulations reg 529CD",
+      "sourceName": "SafeWork NSW",
+      "sourceUrl": "https://www.safework.nsw.gov.au/hazards-a-z/hazardous-chemical/priority-chemicals/crystalline-silica/training-in-crystalline-silica",
+      "notes": "The Regulations set no statutory refresher interval. Airtight defaults to a 3-year refresher as a practice standard and labels it as guidance, not law."
+    },
+    {
+      "jurisdiction": "NSW",
+      "version": 1,
+      "status": "published",
+      "effectiveTo": null,
+      "verifiedAt": "2026-08-23",
+      "verifiedBy": "gapfound-review",
+      "sourceHash": null,
+      "createdAt": "2026-08-23",
+      "id": "nsw-air-monitoring-v1",
+      "key": "air.monitoring",
+      "effectiveFrom": "2024-09-01",
+      "value": {
+        "whenRequired": [
+          "Where the PCBU is not certain on reasonable grounds whether the airborne concentration of RCS exceeds the exposure limit (cl 50(1)(a)).",
+          "Where monitoring is necessary to determine whether there is a risk to health (cl 50(1)(b)).",
+          "Where the PCBU carries out, or directs or allows a worker to carry out, processing of a CSS that is high risk (cl 529CE(a))."
+        ],
+        "recordRetentionYears": 30,
+        "reviewIntervalMonths": 12,
+        "reviewIntervalBasis": "regulator_guidance",
+        "accessObligation": "Results must be recorded, kept for 30 years, and be readily accessible to persons at the workplace who may be exposed."
+      },
+      "citation": "Work Health and Safety Regulation 2025 (NSW) cll 49, 50, 529CE(a); model WHS Regulations regs 49, 50, 529CE",
+      "sourceName": "SafeWork NSW / Safe Work Australia",
+      "sourceUrl": "https://www.safework.nsw.gov.au/hazards-a-z/hazardous-chemical/priority-chemicals/crystalline-silica/work-safely-with-crystalline-silica-and-engineered-stone",
+      "notes": "Air monitoring is not mandatory for every CSS process; it is triggered by cl 50 and by high risk processing under cl 529CE(a). The 12-month review interval Airtight uses to flag \"monitoring overdue\" is a practice standard, not a legislated frequency."
+    }
+  ],
+  "signature": "O+2dv4UF/sHiy+oa92ov6aaBMUipKp/iQ5a+LRDe53CUCl4zxiySh3qADg/5EWYn3pD6K1Svc5XepmXOHj0KBA=="
+}
