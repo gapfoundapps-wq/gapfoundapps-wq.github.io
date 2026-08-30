@@ -31,7 +31,7 @@
 <header>
   <div class="wrap">
     <h1>Privacy policy</h1>
-    <p>Airtight · effective 25 August 2026</p>
+    <p>Airtight · effective 30 August 2026</p>
     <nav style="margin-top:14px"><a href="./">Support</a><a href="./privacy.html">Privacy policy</a></nav>
   </div>
 </header>
@@ -39,8 +39,12 @@
 <main class="wrap">
   <div class="card">
     <h2>In short</h2>
-    <p>Airtight collects the records an Australian business needs to show a work health and safety regulator. That includes <strong>health information about workers</strong>, because the law requires health monitoring for people who work with crystalline silica.</p>
-    <p>We do not sell data. We do not share it with third parties. We do not use it for advertising, and there are no advertising or analytics trackers in the app.</p>
+    <p><strong>Airtight does not collect your records.</strong> Everything you enter — your business details, your workers, your air monitoring results, and the health monitoring dates the law requires you to keep — stays on your phone, encrypted. It is never sent to us. We hold no copy of it, and we could not read it if we did.</p>
+    <p>There is no account, no sign-in and no password, because there is nothing to sign in to. Your phone's own lock screen is what keeps the records private.</p>
+    <p>We do not sell data, do not share it, and do not use it for advertising. There are no advertising or analytics trackers in the app.</p>
+    <div class="flag">
+      <strong>The other side of that.</strong> Because nobody else holds a copy, a lost or reset phone with no backup means the records are gone — and the duty to keep air monitoring and health monitoring records for 30 years stays with your business. Airtight has a Backup screen for exactly this reason, and it warns you when you have not used it.
+    </div>
   </div>
 
   <div class="card">
@@ -49,33 +53,23 @@
   </div>
 
   <div class="card">
-    <h2>Business and account information</h2>
+    <h2>What is on your phone, and nowhere else</h2>
+    <p>All of the following is written to a single encrypted file in the app's private storage on your device.</p>
     <table>
-      <tr><th>What</th><th>Why</th><th>Kept for</th></tr>
-      <tr><td>Business name, ABN, trade, state</td><td>Identifies the business on every plan, record and audit pack</td><td>Life of account + 7 years</td></tr>
-      <tr><td>Your name and email</td><td>Signing in, and the "prepared by" line on plans</td><td>Life of account</td></tr>
-      <tr><td>Password</td><td>Signing in. Stored only as a bcrypt hash — we never hold the plain text</td><td>Life of account</td></tr>
-      <tr><td>Workplace names and addresses</td><td>A silica risk control plan is workplace-specific</td><td>Life of account + 7 years</td></tr>
-      <tr><td>Subscription status</td><td>Access to paid features</td><td>Life of account + 7 years</td></tr>
-    </table>
-  </div>
-
-  <div class="card">
-    <h2>Worker information, including health information</h2>
-    <p>This is the sensitive part of the app, and the part we deliberately keep smallest.</p>
-    <table>
-      <tr><th>What</th><th>Why</th><th>Kept for</th></tr>
+      <tr><th>What</th><th>Why the app holds it</th><th>How long you should keep it</th></tr>
+      <tr><td>Business name, ABN, trade, state</td><td>Identifies your business on every plan, record and audit pack</td><td>Your choice</td></tr>
+      <tr><td>Workplace names and addresses</td><td>A silica risk control plan is workplace-specific</td><td>Your choice</td></tr>
       <tr><td>Worker name and role</td><td>To know who does high risk silica work, and so who is owed health monitoring and training</td><td>Up to 30 years, as the Regulations require</td></tr>
       <tr><td>Date they started high risk silica work</td><td>Sets the health monitoring due date and the Silica Worker Register deadline</td><td>As above</td></tr>
       <tr><td><strong>Health monitoring: the date it happened</strong></td><td>To schedule the next round and evidence the duty was met</td><td>30 years</td></tr>
       <tr><td><strong>Health monitoring: the practitioner</strong></td><td>The law requires monitoring by a registered medical practitioner with experience in health monitoring; the record shows who</td><td>30 years</td></tr>
       <tr><td><strong>Whether a report was received, whether it was adverse, whether it was given to the worker, whether the regulator was notified</strong></td><td>These four facts are the compliance record</td><td>30 years</td></tr>
       <tr><td>Training course, provider, completion date</td><td>The law requires a training record</td><td>5 years after the worker leaves</td></tr>
-      <tr><td>Air monitoring results attributed to a worker</td><td>Personal exposure records</td><td>30 years</td></tr>
+      <tr><td>Air monitoring results, including any attributed to a worker</td><td>Personal exposure records</td><td>30 years</td></tr>
     </table>
 
     <div class="flag">
-      <strong>What we deliberately do not collect.</strong> No chest X-ray or CT images. No spirometry or lung function values. No respiratory questionnaire answers. No diagnoses or findings. No medical history, medications or smoking history. No Medicare or health fund numbers. No date of birth by default.
+      <strong>What the app deliberately has no field for.</strong> No chest X-ray or CT images. No spirometry or lung function values. No respiratory questionnaire answers. No diagnoses or findings. No medical history, medications or smoking history. No Medicare or health fund numbers. No date of birth.
       <br><br>
       Airtight records <em>that</em> health monitoring happened, <em>when</em>, <em>by whom</em>, and <em>whether the report was adverse</em>. The clinical record stays with the medical practitioner and in the employer's own confidential file, which is where the Regulations require it to be kept.
     </div>
@@ -84,43 +78,45 @@
   </div>
 
   <div class="card">
-    <h2>Who we share it with</h2>
-    <p><strong>Nobody.</strong> Worker health information is never sent to any third party.</p>
+    <h2>What actually leaves your phone</h2>
+    <p>Two things, and neither carries any of your records.</p>
     <table>
-      <tr><th>Service</th><th>What it receives</th></tr>
-      <tr><td>RevenueCat</td><td>An anonymous account identifier and subscription events. No worker or health data.</td></tr>
+      <tr><th>Where</th><th>What it receives</th></tr>
+      <tr><td>RevenueCat</td><td>An anonymous identifier their software generates, and the fact that a subscription was bought or renewed. It is how the app knows you are subscribed. <strong>No records, no worker details, no health information, no name and no email.</strong></td></tr>
       <tr><td>Apple / Google</td><td>Payment processing, handled entirely by the platform. We never see card details.</td></tr>
-      <tr><td>Apple App Attest / Google Play Integrity</td><td>An app authenticity check. No personal data.</td></tr>
-      <tr><td>Safe Work Australia, SafeWork NSW</td><td><strong>Nothing.</strong> Airtight reads their public documents; it never sends anything to them.</td></tr>
+      <tr><td>Our rule file (a public web address)</td><td>The app downloads a signed file of current law about once a day. It is an ordinary web request and sends nothing about you or your business; the host sees your device's IP address, as any website would.</td></tr>
+      <tr><td>Safe Work Australia, SafeWork NSW</td><td><strong>Nothing.</strong> We read their public documents on our own machine to prepare that rule file. Your device never contacts them, and nothing of yours is ever sent to them.</td></tr>
     </table>
     <p class="muted">Notifications to a regulator are made by you, through the regulator's own portal. Airtight records what is due and what you tell it you submitted. It never submits on your behalf.</p>
   </div>
 
   <div class="card">
     <h2>How it is protected</h2>
-    <p><strong>In transit:</strong> every request uses HTTPS/TLS.</p>
-    <p><strong>At rest:</strong> records are held server-side and are readable only through the authenticated account that owns them.</p>
-    <p><strong>On your phone:</strong> the only credential the app stores is your session token, held in the iOS Keychain or Android Keystore. Records are displayed from the server, not cached to the device.</p>
-    <p><strong>No keys in the app:</strong> the app ships with no API keys or third-party credentials. Every third-party call is made by the server.</p>
+    <p><strong>On your phone:</strong> your records are held as one file encrypted with AES-256-GCM. The key is stored in the iOS Keychain or the Android Keystore, set so that it does not sync to iCloud and does not travel in a device backup. The app never writes your records anywhere else.</p>
+    <p><strong>Your backups:</strong> a backup file is encrypted with a passphrase <em>you</em> choose, not with anything stored on the phone — that is what lets you open it on a replacement device. We never see the passphrase and <strong>cannot recover it for you</strong>.</p>
+    <p><strong>The law the app applies:</strong> the rule file is signed, and your device checks the signature before trusting it. A file altered along the way is thrown away and the app keeps the rules it already had. This is what stops the exposure limit being tampered with in transit.</p>
+    <p><strong>No keys in the app:</strong> the only keys in the app are public ones — RevenueCat's client key, which is designed to ship in an app, and the key used to check that rule signature.</p>
+    <p><strong>Being straight about the limits:</strong> because there is no server, the check that you hold a subscription happens on your phone rather than somewhere you cannot alter. That is genuinely weaker than a server-side check, and the app says so on its Subscription screen. It is the same trade that keeps your records private: with nothing of yours on our side, there is nothing on our side to arbitrate either.</p>
   </div>
 
   <div class="card">
     <h2>Your rights</h2>
     <h3>Access and export</h3>
-    <p>You can export everything held about your business, including worker records, as an audit pack and a data file.</p>
+    <p>Everything is already in your hands. The Backup screen exports the lot as an encrypted file you keep; the Audit pack screen produces the readable version to show an inspector.</p>
     <h3>Correction</h3>
-    <p>Every record is editable by the business that owns it.</p>
+    <p>Every record is editable in the app.</p>
     <h3>Deletion</h3>
-    <p>Email us and we will delete your account and business data within 30 days — <em>except</em> records under a statutory retention period. Air monitoring results and health monitoring records must be kept for 30 years, and training records for 5 years after a worker leaves. A business cannot discharge that duty by asking a supplier to delete the records, so those are exported to you and then held in a restricted archive until the period expires.</p>
+    <p><strong>We cannot delete your records, because we do not have them.</strong> You delete them yourself: the Backup screen has a "Delete everything on this phone" control that erases the encrypted file, its spare copy and the key that opens them. Removing the app does the same thing.</p>
+    <p>That deletion is final — there is no copy anywhere for us to restore from. Air monitoring and health monitoring records must be kept for 30 years and training records for 5 years after a worker leaves, and that duty stays with your business, so take a backup before you delete anything.</p>
     <h3>Workers</h3>
-    <p>A worker may ask their employer for their own records. A health monitoring report must not be disclosed to anyone else without the worker's written consent, and Airtight's access model reflects that.</p>
+    <p>A worker may ask their employer for their own records. A health monitoring report must not be disclosed to anyone else without the worker's written consent. Airtight never holds the report itself, so it cannot disclose one.</p>
     <h3>Complaints</h3>
     <p>Email us first. If you are not satisfied, you may complain to the Office of the Australian Information Commissioner at <a href="https://www.oaic.gov.au">oaic.gov.au</a>.</p>
   </div>
 
   <div class="card">
     <h2>Children</h2>
-    <p>Airtight is a workplace tool and is not directed at children. We do not knowingly collect information from anyone under 16 other than as a worker record entered by their employer.</p>
+    <p>Airtight is a workplace tool and is not directed at children. We do not knowingly collect information from anyone at all, at any age — the records you enter about your workers, whatever their age, stay on your device.</p>
   </div>
 
   <div class="card">
@@ -129,7 +125,7 @@
   </div>
 
   <footer>
-    Airtight is published by Gap Found. Last updated 25 August 2026.
+    Airtight is published by Gap Found. Last updated 30 August 2026.
   </footer>
 </main>
 </body>
