@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resona — Privacy policy</title>
+<style>
+  :root { --ink:#12212e; --muted:#5b6b7a; --brand:#0f2b46; --line:#dde3e9; --bg:#f4f6f8; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+         font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif; }
+  header { background:var(--brand); color:#fff; padding:28px 20px; }
+  .wrap { max-width:760px; margin:0 auto; }
+  header h1 { margin:0; font-size:26px; }
+  header p { margin:6px 0 0; color:#9fb6cb; font-size:14px; }
+  nav a { color:#9fb6cb; margin-right:16px; font-size:14px; }
+  main { padding:28px 20px 64px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:10px; padding:22px; margin-bottom:18px; }
+  h2 { font-size:18px; margin:0 0 12px; }
+  h3 { font-size:15px; margin:20px 0 6px; }
+  table { width:100%; border-collapse:collapse; font-size:14px; margin-top:10px; }
+  th, td { text-align:left; padding:9px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; }
+  a { color:#0b5cad; }
+  .muted { color:var(--muted); font-size:14px; }
+  .flag { background:#fdf3e6; border-left:3px solid #b54708; padding:12px 14px; border-radius:4px; margin:14px 0; }
+  footer { border-top:1px solid var(--line); margin-top:24px; padding-top:16px; font-size:13px; color:var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Privacy policy</h1>
+    <p>Resona · effective 1 September 2026</p>
+    <nav style="margin-top:14px"><a href="./">Support</a><a href="./privacy.html">Privacy policy</a><a href="./delete-data.html">Deleting your data</a></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="card">
+    <h2>In short</h2>
+    <p><strong>Resona does not collect anything.</strong> The recordings you import or make, the posters you design, and the files you export all stay on your phone. None of it is sent to us. We hold no copy, and there is no server of ours for it to be sent to.</p>
+    <p>There is no account, no sign-in and no password, because there is nothing to sign in to. Your phone's own lock screen is what keeps your posters private.</p>
+    <p>There is no analytics SDK, no crash reporting, no advertising and no tracking of any kind in the app. The App Store and Play Store privacy labels say <strong>no data collected and no data shared</strong>, and that is literally true rather than a best effort.</p>
+    <div class="flag">
+      <strong>The other side of that.</strong> Because nobody else holds a copy, deleting the app or resetting the phone deletes your posters permanently. There is nothing for us to restore. Export the poster files you care about — they are ordinary PDFs and PNGs you can keep anywhere.
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Who we are</h2>
+    <p>Resona is published by Gap Found. For any privacy question, email <a href="mailto:gapfound.apps@gmail.com">gapfound.apps@gmail.com</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>What is on your phone, and nowhere else</h2>
+    <p>Everything below is written to encrypted files in the app's private storage on your device.</p>
+    <table>
+      <tr><th>What</th><th>Why the app holds it</th></tr>
+      <tr><td>The audio you import or record</td><td>So a poster can be redrawn later at a different size or detail level without you having to find the original file again</td></tr>
+      <tr><td>The waveform measurements taken from it</td><td>A few thousand numbers describing how loud the recording is over time. This is what is actually drawn</td></tr>
+      <tr><td>Your title, subtitle and date</td><td>They are printed on the poster</td></tr>
+      <tr><td>Your design choices</td><td>Style, colour, typeface, print size, detail and amplitude</td></tr>
+      <tr><td>Whether the one-time unlock has been purchased</td><td>So the app knows not to watermark your exports while offline</td></tr>
+    </table>
+
+    <div class="flag">
+      <strong>What the app deliberately has no field for.</strong> No name, no email address, no phone number, no date of birth, no location, no contacts, no photo library access, no advertising identifier, and no device fingerprint. The app never asks who you are, because it never needs to know.
+    </div>
+
+    <p><strong>Your audio is never transcribed, analysed for content, or listened to.</strong> The app measures loudness over time and draws it. It has no speech recognition and no idea what a recording contains.</p>
+  </div>
+
+  <div class="card">
+    <h2>What actually leaves your phone</h2>
+    <p>One thing, and it carries none of your content.</p>
+    <table>
+      <tr><th>Where</th><th>What it receives</th></tr>
+      <tr><td>Apple / Google</td><td>Payment processing for the one-time unlock, handled entirely by the platform. We never see card details, and we are not told who bought it.</td></tr>
+      <tr><td>RevenueCat</td><td>An anonymous identifier their software generates on the device, and the fact that the unlock was purchased or restored. It is how the app knows not to watermark your exports. <strong>No audio, no posters, no titles, no name and no email.</strong></td></tr>
+      <tr><td>Anywhere else</td><td><strong>Nothing.</strong> The app makes no other network requests. It does not check for updates, fetch fonts, or report errors. The typefaces, the drawing and the print engine are all inside the app.</td></tr>
+    </table>
+    <p class="muted">When you tap Share on an exported poster, that file goes wherever you send it — Files, AirDrop, email, a print shop. That is you sending it, through your phone's own share sheet. The app is not involved beyond handing the file over.</p>
+  </div>
+
+  <div class="card">
+    <h2>Microphone</h2>
+    <p>Resona asks for the microphone only when you tap Start recording, and uses it only while that recording is running. The audio is written straight into the app's encrypted storage on your device.</p>
+    <p>It is never streamed anywhere, never recorded in the background, and never captured while the app is not open. If you only ever import files, you can decline the permission and every other part of the app still works.</p>
+  </div>
+
+  <div class="card">
+    <h2>How it is protected</h2>
+    <p><strong>On your phone:</strong> your posters are held as a single file encrypted with AES-256-GCM, and each imported or recorded audio file is encrypted the same way. The key is generated on the device the first time you open the app and stored in the iOS Keychain or the Android Keystore, set so that it does not sync to iCloud and does not travel in a device backup.</p>
+    <p><strong>Every save is re-encrypted from scratch</strong> with a fresh random number used once and never again. Reusing that number is the classic way this kind of encryption is broken, so the app also checks for a repeat and refuses to write rather than produce a weakly protected file.</p>
+    <p><strong>Tampering is detected, not ignored.</strong> If a stored file is altered by anything other than the app, it fails to open rather than loading corrupted data. There is no way to read the files without the key, and the key never leaves the device.</p>
+    <p><strong>Exported posters are not encrypted</strong>, deliberately — a PDF a print shop cannot open would be useless. They are written to the app's temporary folder when you export, and the operating system clears that folder on its own schedule.</p>
+    <p><strong>No secret keys in the app:</strong> the only key shipped inside Resona is RevenueCat's public client key, which is designed to be in an app.</p>
+    <p><strong>Being straight about the limits:</strong> because there is no server, the check that you bought the unlock happens on your phone rather than somewhere you cannot alter. That is genuinely weaker than a server-side check. It is the same trade that keeps your recordings private: with nothing of yours on our side, there is nothing on our side to arbitrate either.</p>
+  </div>
+
+  <div class="card">
+    <h2>Your rights</h2>
+    <h3>Access and export</h3>
+    <p>Everything is already in your hands. Every poster exports as a PDF and a PNG you keep. There is no copy held anywhere else to request.</p>
+    <h3>Correction</h3>
+    <p>Every poster is editable in the app, at any time, including its title and date.</p>
+    <h3>Deletion</h3>
+    <p><strong>We cannot delete your content, because we do not have it.</strong> You delete it yourself: each poster has a Delete control, and Settings has "Erase all posters", which removes every poster and every stored audio file on the device. Removing the app does the same thing. See <a href="./delete-data.html">Deleting your data</a>.</p>
+    <p>That deletion is final. There is no copy anywhere for us to restore from.</p>
+    <h3>Purchases</h3>
+    <p>Your purchase belongs to your Apple ID or Google account, not to us. "Restore purchase" asks the store what that account already owns. To query or delete purchase records, contact Apple or Google — we hold none.</p>
+    <h3>Complaints</h3>
+    <p>Email us first. If you are not satisfied, you may complain to the Office of the Australian Information Commissioner at <a href="https://www.oaic.gov.au">oaic.gov.au</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>Children</h2>
+    <p>Resona is rated for users aged 18 and over and is not directed at children. We do not knowingly collect information from anyone at all, at any age — there is no mechanism in the app by which any personal information could reach us.</p>
+  </div>
+
+  <div class="card">
+    <h2>Changes</h2>
+    <p>If this policy changes materially we will say so in the app before the change takes effect. The date at the top always reflects the current version.</p>
+  </div>
+
+  <footer>
+    Resona is published by Gap Found. Last updated 1 September 2026.
+  </footer>
+</main>
+</body>
+</html>
